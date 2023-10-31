@@ -1,0 +1,7 @@
+---
+- name: install php_fpm
+  hosts: app
+  become: yes
+  
+  roles:
+    - php_fpm
